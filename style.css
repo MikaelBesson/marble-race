@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+#bille1 {
+    width: 5em;
+    height: 5em;
+    margin-top: 5em;
+    background-color: blue;
+    border-radius: 25px;
+    animation-name: bille1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#bille2 {
+    width: 5em;
+    height: 5em;
+    margin-top: 5em;
+    background-color: #e70f6d;
+    border-radius: 25px;
+    animation-name: bille2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#bille3 {
+    width: 5em;
+    height: 5em;
+    margin-top: 5em;
+    background-color: #1fc113;
+    border-radius: 25px;
+    animation-name: bille3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes bille1 {
+    25% {
+        transform: translateX(250px);
+    }
+
+    50% {
+        transform: translateX(380px);
+    }
+
+    75% {
+        transform: translateX(560px);
+    }
+    85 % {
+        transform: translateX(800px);
+    }
+    90% {
+        transform: translateX(910px);
+    }
+    100% {
+        transform: translateX(1530px);
+    }
+}
+
+@keyframes bille2 {
+    25% {
+        transform: translateX(200px);
+    }
+    50% {
+        transform: translateX(400px);
+    }
+    75% {
+        transform: translateX(600px);
+    }
+    85 % {
+        transform: translateX(780px);
+    }
+    90% {
+        transform: translateX(860px);
+    }
+    100% {
+        transform: translateX(1510px);
+    }
+}
+
+@keyframes bille3 {
+    25% {
+        transform: translateX(240px);
+    }
+    50% {
+        transform: translateX(420px);
+    }
+    75% {
+        transform: translateX(610px);
+    }
+    85 % {
+        transform: translateX(810px);
+    }
+    90% {
+        transform: translateX(900px);
+    }
+    100% {
+        transform: translateX(1550px);
+    }
+
+}
+
+p {
+    margin-top: 2em;
+    font-size: xx-large;
+    text-align: center;
+}
